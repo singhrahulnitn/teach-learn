@@ -1,0 +1,12 @@
+package com.bartar;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BartarTopicsServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BartarTopicsServiceApplication.class, args);
+	}
+}
